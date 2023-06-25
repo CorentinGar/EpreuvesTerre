@@ -32,4 +32,4 @@ for lettre in range(ord('a'), ord('z')+1):
 print()
 
 
-
+#ok dis moi que ca marche
