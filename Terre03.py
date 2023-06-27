@@ -1,6 +1,17 @@
+#coding:UTF-8
+
+#L'alphabet à partir de: Créer un programme qui affiche l'alphabet à partir de la lettre donnée en argumennt en lettres minuscules.
 
 
-import os
+choose_letter = input("Entrez la lettre désirée : ")
 
-term_program = os.environ.get('TERM_PROGRAM')
-print("Terminal utilisé :", term_program)
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+index = alphabet.index(choose_letter.lower())
+
+displayAlphabet = alphabet[index:] + alphabet[:index]
+
+result = ""
+for lettre in displayAlphabet:
+    result += lettre + " "
+
+print(result.strip())

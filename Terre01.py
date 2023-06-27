@@ -2,6 +2,7 @@
 
 #Nom du programme: Créer un programme qui affiche son nom de fichier.
 
+
 import os
 
 def afficher_nom_fichier(chemin_fichier):
