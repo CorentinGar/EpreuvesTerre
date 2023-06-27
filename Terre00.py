@@ -1,6 +1,6 @@
 #coding:UTF-8
 
-#L'alphabet: Créer un programme qui affiche l'alphabet en lettres minuscules suivi d'un retour à la ligne.
+#L'alphabet: Créer un programme qui affiche l'alphabet en lettres minuscules suivi d'un retour à la ligne!
 
 
 
@@ -27,7 +27,7 @@ print()
 
 #3ème solution
 
-for lettre in range(ord('a'), ord('z')+1):
-    print(chr(lettre), end="")
+for letter in range(ord('a'), ord('z')+1):
+    print(chr(letter), end="")
 print()
 

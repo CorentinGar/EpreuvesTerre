@@ -1,14 +1,14 @@
 #coding:UTF-8
 
-#Nom du programme: Créer un programme qui affiche son nom de fichier.
+#Nom du programme: Créer un programme qui affiche son nom de fichier!
 
 
 import os
 
-def afficher_nom_fichier(chemin_fichier):
-    nom_fichier = os.path.basename(chemin_fichier)
-    print("Nom du fichier :", nom_fichier)
+def display_name_file(path_file):
+    name_file = os.path.basename(path_file)
+    print("Nom du fichier :", name_file)
 
 
-chemin_fichier = "/bin/python /home/dangvannghia/Documents/Terre01.py"
-afficher_nom_fichier(chemin_fichier)
+path_file = "/bin/python /home/dangvannghia/Documents/Terre01.py"
+display_name_file(path_file)
